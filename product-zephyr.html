@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>NIVEOL — Одеяло ZEPHYR</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./java-script.js" defer></script>
+</head>
+
+<body class="page page-product">
+
+<header class="site-header">
+    <button class="site-header__menu" type="button" data-menu-toggle aria-label="Открыть меню">
+        МЕНЮ
+    </button>
+
+    <a class="site-header__logo" href="./home.html" aria-label="NIVEOL — главная">
+        NIVEOL
+    </a>
+
+    <a class="site-header__cart" href="#" aria-label="Корзина">
+        КОРЗИНА (<span data-cart-count>0</span>)
+    </a>
+</header>
+
+<div class="menu-overlay" data-menu-overlay></div>
+
+<aside class="side-menu" data-side-menu>
+    <nav class="side-menu__nav">
+        <a href="./collections.html">Коллекции</a>
+        <a href="./about.html">О бренде</a>
+        <a href="./contacts.html">Контакты</a>
+    </nav>
+</aside>
+
+<main class="product-page">
+
+    <div class="product-page__top">
+        <a class="product-back" href="./collections.html">
+            ВСЕ КОЛЛЕКЦИИ
+        </a>
+    </div>
+
+    <section class="product-detail" data-product-detail data-base-price="25000">
+
+        <div class="product-detail__media">
+            <img src="./assets/images/product-zephyr.png" alt="Одеяло ZEPHYR" />
+
+            <p class="product-detail__color">
+          ЦВЕТ: БЕЛЫЙ
+        </p>
+        </div>
+
+        <div class="product-detail__info">
+
+            <p class="product-detail__collection">
+          КОЛЛЕКЦИЯ AETHER
+        </p>
+
+            <h1 class="product-detail__title">
+          Хлопковое<br />
+          одеяло “ZEPHYR”
+        </h1>
+
+            <div class="product-detail__price" data-product-price>
+          25 000 ₽
+        </div>
+
+            <div class="product-detail__controls">
+
+                <div class="product-sizes">
+                    <p class="product-sizes__label">
+                        ВЫБЕРИТЕ РАЗМЕР (СМ)
+                    </p>
+
+                    <div class="product-sizes__list">
+                        <button class="product-size is-active" type="button" data-price-offset="0">
+                            140×205
+                        </button>
+
+                        <button class="product-size" type="button" data-price-offset="10000">
+                            155×215
+                        </button>
+
+                        <button class="product-size" type="button" data-price-offset="20000">
+                            200×220
+                        </button>
+                    </div>
+                </div>
+
+                <button class="product-add" type="button" data-add-to-cart>
+                    ДОБАВИТЬ В КОРЗИНУ
+                </button>
+
+            </div>
+
+            <div class="product-accordion">
+
+                <div class="product-accordion__item" data-accordion-item>
+                    <button class="product-accordion__button" type="button" data-accordion-button>
+                        <span>СОСТАВ И МАТЕРИАЛЫ</span>
+                        <b>+</b>
+                    </button>
+
+                    <div class="product-accordion__content">
+                        <p>
+                            Чехол: Объемный трикотаж с шелком и органическим хлопком.
+                            Терморегулирующий, прохладный на ощупь.
+                        </p>
+
+                        <p>
+                            Комфортный слой: Анатомическая пена Aero Memory Foam.
+                            Снимает обратное давление, создает эффект невесомости.
+                        </p>
+
+                        <p>
+                            Основа: 7-зонный натуральный перфорированный латекс.
+                            Точечно поддерживает тело и свободно «дышит».
+                        </p>
+
+                        <p>
+                            Безопасность: 100% гипоаллергенно, международный сертификат чистоты CertiPUR.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="product-accordion__item" data-accordion-item>
+                    <button class="product-accordion__button" type="button" data-accordion-button>
+                        <span>ДОСТАВКА</span>
+                        <b>+</b>
+                    </button>
+
+                    <div class="product-accordion__content">
+                        <p>
+                            Бережная доставка по Москве:
+                        </p>
+
+                        <p>
+                            Бесплатная доставка до вашей спальни в удобный часовой интервал
+                            ежедневно с 10:00 до 22:00.
+                        </p>
+
+                        <p>
+                            Привезем матрас в плотной защитной вакуумной упаковке,
+                            сохраняющей абсолютную чистоту изделия.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="product-accordion__item" data-accordion-item>
+                    <button class="product-accordion__button" type="button" data-accordion-button>
+                        <span>ГАРАНТИЯ</span>
+                        <b>+</b>
+                    </button>
+
+                    <div class="product-accordion__content">
+                        <p>
+                            На все матрасы и другую продукцию действует официальная фабричная
+                            гарантия бренда до 25 лет.
+                        </p>
+
+                        <p>
+                            На подушки и одеяла — 3 года безупречной службы.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="product-related">
+
+        <a class="product-card" href="./product-zephyr.html">
+        <span class="product-card__image">
+          <img src="./assets/images/product-zephyr.png" alt="Одеяло ZEPHYR" />
+        </span>
+
+            <span class="product-card__name">
+          Одеяло “ZEPHYR”
+        </span>
+
+            <span class="product-card__price">
+          от 25 000 ₽
+        </span>
+        </a>
+
+        <a class="product-card" href="./product-aura.html">
+        <span class="product-card__image">
+          <img src="./assets/images/product-aura.png" alt="Подушка AURA" />
+        </span>
+
+            <span class="product-card__name">
+          Подушка “AURA”
+        </span>
+
+            <span class="product-card__price">
+          от 10 000 ₽
+        </span>
+        </a>
+
+        <a class="product-card" href="./product-comet.html">
+        <span class="product-card__image">
+          <img src="./assets/images/product-comet.png" alt="Одеяло Comet" />
+        </span>
+
+            <span class="product-card__name">
+          Одеяло “Comet”
+        </span>
+
+            <span class="product-card__price">
+          от 19 000 ₽
+        </span>
+        </a>
+
+    </section>
+
+    <div class="product-page__bottom-mark" aria-hidden="true">
+        <i></i>
+        <span>00</span>
+    </div>
+
+</main>
+
+<footer class="site-footer">
+    <div class="site-footer__links">
+        <span>@NIVEOL.RU</span>
+        <span>ДОСТАВКА</span>
+        <span>ГАРАНТИЯ</span>
+    </div>
+
+    <div class="site-footer__copy">
+        2026 NIVEOL LUXURY SLEEP
+    </div>
+</footer>
+
+</body>
+</html>

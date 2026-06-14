@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>NIVEOL — Коллекции</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./java-script.js" defer></script>
+</head>
+
+<body class="page page-collections">
+
+<header class="site-header">
+    <button class="site-header__menu" type="button" data-menu-toggle aria-label="Открыть меню">
+        МЕНЮ
+    </button>
+
+    <a class="site-header__logo" href="./home.html" aria-label="NIVEOL — главная">
+        NIVEOL
+    </a>
+
+    <a class="site-header__cart" href="#" aria-label="Корзина">
+        КОРЗИНА (<span data-cart-count>0</span>)
+    </a>
+</header>
+
+<div class="menu-overlay" data-menu-overlay></div>
+
+<aside class="side-menu" data-side-menu>
+    <nav class="side-menu__nav">
+        <a href="./collections.html">Коллекции</a>
+        <a href="./about.html">О бренде</a>
+        <a href="./contacts.html">Контакты</a>
+    </nav>
+</aside>
+
+<main class="collections-main">
+
+    <section class="collections-hero">
+        <div class="collections-hero__bg" aria-hidden="true"></div>
+
+        <div class="collections-hero__content">
+            <h1 class="collections-hero__title">
+                Искусство правильного выбора
+            </h1>
+
+            <p class="collections-hero__subtitle">
+                ВСЕ КОЛЛЕКЦИИ
+            </p>
+        </div>
+    </section>
+
+    <section class="collections-catalog">
+
+        <div class="collections-filters">
+
+            <div class="filter" data-filter>
+                <button class="filter__button" type="button" data-filter-button>
+                    ПРОДУКТ <span>▼</span>
+                </button>
+
+                <div class="filter__dropdown">
+                    <button type="button" data-filter-type="product" data-filter-value="mattress">Матрас</button>
+                    <button type="button" data-filter-type="product" data-filter-value="pillow">Подушка</button>
+                    <button type="button" data-filter-type="product" data-filter-value="blanket">Одеяло</button>
+                    <button type="button" data-filter-type="product" data-filter-value="all">Все</button>
+                </div>
+            </div>
+
+            <div class="filter" data-filter>
+                <button class="filter__button" type="button" data-filter-button>
+                    ЦВЕТ <span>▼</span>
+                </button>
+
+                <div class="filter__dropdown">
+                    <button type="button" data-filter-type="color" data-filter-value="black">Чёрный</button>
+                    <button type="button" data-filter-type="color" data-filter-value="white">Белый</button>
+                    <button type="button" data-filter-type="color" data-filter-value="blue">Синий</button>
+                    <button type="button" data-filter-type="color" data-filter-value="all">Все</button>
+                </div>
+            </div>
+
+            <div class="filter" data-filter>
+                <button class="filter__button" type="button" data-filter-button>
+                    КОЛЛЕКЦИЯ <span>▼</span>
+                </button>
+
+                <div class="filter__dropdown">
+                    <button type="button" data-filter-type="collection" data-filter-value="aether">Aether</button>
+                    <button type="button" data-filter-type="collection" data-filter-value="celestia">Celestia</button>
+                    <button type="button" data-filter-type="collection" data-filter-value="all">Все</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="collections-grid" data-products-grid>
+
+            <a class="product-card collections-card"
+               href="./product-cirrus.html"
+               data-product-card
+               data-product="pillow"
+               data-color="white"
+               data-collection="celestia">
+          <span class="product-card__image">
+            <img src="./assets/images/product-cirrus.png" alt="Подушка Cirrus" />
+          </span>
+
+                <span class="product-card__name">
+            Подушка “Cirrus”
+          </span>
+
+                <span class="product-card__price">
+            от 12 000 ₽
+          </span>
+            </a>
+
+            <a class="product-card collections-card"
+               href="./product-cosmo.html"
+               data-product-card
+               data-product="mattress"
+               data-color="blue"
+               data-collection="celestia">
+          <span class="product-card__image">
+            <img src="./assets/images/product-cosmo.png" alt="Матрас Cosmo" />
+          </span>
+
+                <span class="product-card__name">
+            Матрас “Cosmo”
+          </span>
+
+                <span class="product-card__price">
+            от 95 000 ₽
+          </span>
+            </a>
+
+            <a class="product-card collections-card"
+               href="./product-zephyr.html"
+               data-product-card
+               data-product="blanket"
+               data-color="white"
+               data-collection="aether">
+          <span class="product-card__image">
+            <img src="./assets/images/product-zephyr.png" alt="Одеяло ZEPHYR" />
+          </span>
+
+                <span class="product-card__name">
+            Одеяло “ZEPHYR”
+          </span>
+
+                <span class="product-card__price">
+            от 25 000 ₽
+          </span>
+            </a>
+
+            <a class="product-card collections-card"
+               href="./product-nebula.html"
+               data-product-card
+               data-product="mattress"
+               data-color="black"
+               data-collection="celestia">
+          <span class="product-card__image">
+            <img src="./assets/images/product-nebula.png" alt="Матрас Nebula" />
+          </span>
+
+                <span class="product-card__name">
+            Матрас “Nebula”
+          </span>
+
+                <span class="product-card__price">
+            от 85 000 ₽
+          </span>
+            </a>
+
+            <a class="product-card collections-card"
+               href="./product-aura.html"
+               data-product-card
+               data-product="pillow"
+               data-color="black"
+               data-collection="celestia">
+          <span class="product-card__image">
+            <img src="./assets/images/product-aura.png" alt="Подушка AURA" />
+          </span>
+
+                <span class="product-card__name">
+            Подушка “AURA”
+          </span>
+
+                <span class="product-card__price">
+            от 10 000 ₽
+          </span>
+            </a>
+
+            <a class="product-card collections-card"
+               href="./product-comet.html"
+               data-product-card
+               data-product="blanket"
+               data-color="blue"
+               data-collection="aether">
+          <span class="product-card__image">
+            <img src="./assets/images/product-comet.png" alt="Одеяло Comet" />
+          </span>
+
+                <span class="product-card__name">
+            Одеяло “Comet”
+          </span>
+
+                <span class="product-card__price">
+            от 19 000 ₽
+          </span>
+            </a>
+
+        </div>
+
+        <span class="collections-catalog__line" aria-hidden="true"></span>
+        <span class="collections-catalog__number" aria-hidden="true">00.1</span>
+
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="site-footer__links">
+        <span>@NIVEOL.RU</span>
+        <span>ДОСТАВКА</span>
+        <span>ГАРАНТИЯ</span>
+    </div>
+
+    <div class="site-footer__copy">
+        2026 NIVEOL LUXURY SLEEP
+    </div>
+</footer>
+
+</body>
+</html>

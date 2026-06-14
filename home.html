@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>NIVEOL — Luxury Sleep</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./java-script.js" defer></script>
+</head>
+
+<body class="page page-home">
+
+<header class="site-header">
+    <button class="site-header__menu" type="button" data-menu-toggle aria-label="Открыть меню">
+        МЕНЮ
+    </button>
+
+    <a class="site-header__logo" href="./home.html" aria-label="NIVEOL — главная">
+        NIVEOL
+    </a>
+
+    <a class="site-header__cart" href="#" aria-label="Корзина">
+        КОРЗИНА (<span data-cart-count>0</span>)
+    </a>
+</header>
+
+<div class="menu-overlay" data-menu-overlay></div>
+
+<aside class="side-menu" data-side-menu>
+    <nav class="side-menu__nav">
+        <a href="./collections.html">Коллекции</a>
+        <a href="./about.html">О бренде</a>
+        <a href="./contacts.html">Контакты</a>
+    </nav>
+</aside>
+
+<main class="home-main">
+
+    <section class="home-hero">
+        <div class="home-hero__bg" aria-hidden="true"></div>
+
+        <div class="home-hero__content">
+            <p class="home-hero__eyebrow">ИСКУССТВО СНА</p>
+
+            <h1 class="home-hero__title">
+                Погрузитесь в облака
+            </h1>
+
+            <a class="btn btn--outline home-hero__btn" href="./collections.html">
+                ИССЛЕДОВАТЬ КОЛЛЕКЦИИ
+            </a>
+        </div>
+
+        <div class="home-hero__counter" aria-hidden="true">
+            <span data-random-number data-random-format="two">00</span>
+            <i></i>
+        </div>
+    </section>
+
+    <section class="home-products">
+      <span class="home-products__number home-products__number--left"
+            data-random-number
+            data-random-format="decimal2">0.01</span>
+
+        <span class="home-products__number home-products__number--right"
+              data-random-number
+              data-random-format="decimal1">10.0</span>
+
+        <h2 class="home-products__title">
+            Рекомендованные товары
+        </h2>
+
+        <div class="home-products__grid">
+
+            <a class="product-card" href="./product-nebula.html">
+          <span class="product-card__image">
+            <img src="./assets/images/product-nebula.png" alt="Матрас Nebula" />
+          </span>
+
+                <span class="product-card__name">
+            Матрас “Nebula”
+          </span>
+
+                <span class="product-card__price">
+            от 85 000 ₽
+          </span>
+            </a>
+
+            <a class="product-card" href="./product-cirrus.html">
+          <span class="product-card__image">
+            <img src="./assets/images/product-cirrus.png" alt="Подушка Cirrus" />
+          </span>
+
+                <span class="product-card__name">
+            Подушка “Cirrus”
+          </span>
+
+                <span class="product-card__price">
+            от 12 000 ₽
+          </span>
+            </a>
+
+            <a class="product-card" href="./product-zephyr.html">
+          <span class="product-card__image">
+            <img src="./assets/images/product-zephyr.png" alt="Одеяло ZEPHYR" />
+          </span>
+
+                <span class="product-card__name">
+            Одеяло “ZEPHYR”
+          </span>
+
+                <span class="product-card__price">
+            от 25 000 ₽
+          </span>
+            </a>
+
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="site-footer__links">
+        <span>@NIVEOL.RU</span>
+        <span>ДОСТАВКА</span>
+        <span>ГАРАНТИЯ</span>
+    </div>
+
+    <div class="site-footer__copy">
+        2026 NIVEOL LUXURY SLEEP
+    </div>
+</footer>
+
+</body>
+</html>
